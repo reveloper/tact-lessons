@@ -1,6 +1,6 @@
-import { beginCell, Cell, Address } from "ton";
-import { Dictionary } from "ton-core";
-import { sha256_sync } from "ton-crypto"
+import { beginCell, Cell, Address } from "@ton/ton";
+import { Dictionary } from "@ton/core";
+import { sha256_sync } from "@ton/crypto"
 
 
 const ONCHAIN_CONTENT_PREFIX = 0x00;

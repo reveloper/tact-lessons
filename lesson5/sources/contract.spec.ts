@@ -1,4 +1,4 @@
-import { beginCell, toNano } from "ton";
+import { beginCell, toNano } from "@ton/ton";
 import { ContractSystem } from "@tact-lang/emulator";
 import { TokenWallet } from "./output/lesson5_TokenWallet";
 import { TokenMaster} from "./output/lesson5_TokenMaster";

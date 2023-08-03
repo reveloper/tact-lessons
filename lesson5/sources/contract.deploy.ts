@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 import * as path from 'path';
-import { Address, contractAddress } from "ton";
+import { Address, contractAddress } from "@ton/ton";
 import { TokenMaster } from "./output/lesson5_TokenMaster";
 import { prepareTactDeployment } from "@tact-lang/deployer";
 import { buildOnchainMetadata } from './build_data';
